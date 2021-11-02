@@ -1,0 +1,338 @@
+body {
+   background-color: #015B77;
+  }
+  
+  header {
+  
+  
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .intro{
+     
+     background-image: url('img/background1.jpg');
+     padding: 30px; 
+  }
+  .subintro{
+  text-align: center;
+  font-size: 20px;
+  color: white; 
+  }
+
+  #profile{
+      padding: 40px;
+      
+      
+  }
+  #subprofile{
+    color:white;
+    text-align: center;
+    }
+  .picture {
+      left: 30px;
+
+     margin: 30px;
+ 
+      height: 250px;
+      width: 250px;
+      border-radius: 50%;
+      display: inline-block;
+      background-image: url('img/myface.jpg');
+      background-size: 250px;
+      background-position: center;
+      padding: 10px;
+      box-shadow: 5px 10px 18px #4e4e4e;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+    
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other on screens that are smaller than 600 px */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  #tabs{
+    right: 300px;
+     border-radius:15px ;
+     height: 500px;
+     width: 1000px;
+     padding: 10px;
+     box-shadow: 5px 10px 18px #6b6c6d;
+  }
+  #SMART{
+    background-color: #C2EEE8;
+  }
+  .smartTitle{
+    text-align: center;
+  }
+.purple{
+  width: 45px;
+  height: 600px;
+  background-color: #868ED1;
+  position: absolute;
+  top: 1000px;
+  left: 270px;
+  
+ 
+}
+.box{
+  margin: auto;
+  width: 80%;
+  
+  padding: 10px;
+  background-color: whitesmoke;
+  z-index: -1;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #afafaf;
+  border-radius: 5px;
+    
+}
+.test{
+  position: relative;
+  top: -50px; 
+  left: 400px;
+ 
+  color: black;
+}
+#SWOT{
+  background-color: #f2f2f2;
+  
+}
+.SWOTmargin{
+  margin-left: 20px;
+}
+.swottitle{
+  text-align: center;
+  
+}
+
+.SWOTcolumn {
+ 
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.card{
+  
+ /* border: 1px solid;*/
+  padding: 10px;
+  box-shadow: 5px 10px 18px #c7c6c6;
+ /* border: 1px solid rbga(0,0,0,.125);
+  border-radius: 0.25rem;*/
+  
+
+ 
+}
+/* Clearfix (clear floats) */
+.SWOTrow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h5 {
+  text-align: center;
+}
+#poAttainment{
+  background-color:#C6C4C4 ;
+}
+.POmargin{
+  margin: 50px;
+}
+.PObox{
+  background-color: rgb(233, 225, 225);
+  width: 80%;
+  height: 1300px;
+  border: 5px solid rgb(134, 189, 235);
+  padding: 50px;
+  
+  margin: auto;
+  border-radius: 5%;
+}
+
+.POcolumn {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  border: 5px solid;
+  padding: 10px;
+ 
+
+ 
+  
+}
+.POcolumn:hover{
+  
+   box-shadow: 5px 10px #888888;
+   background-color: #C2EEE8;
+}
+
+/* Clearfix (clear floats) */
+.POrow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#POtabs{
+  margin: 50px;
+}
+
+#bgPOE{
+  background-color:rgb(186, 222, 252);
+}
+
+.marginPOE{
+   margin: 50px
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+.POEcolumn {
+  float: left;
+  width: 50%;
+  padding: 10px;
+ 
+  padding: 5px;
+ 
+
+ 
+  
+}
+.POErow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.margintablePOE{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+tr{
+  background-color: #93d6d6 ;
+}
+td{
+  text-align: center;
+}
+
+
+#myBtn{
+  float: right;
+}
+
+.modalbtn{
+  
+  text-decoration: none;
+  color: black;
+  background-color: #4285F4;
+  padding: 10px;
+  float: right;
+  border-radius: 10px;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 300ms ease-in;
+	-moz-transition: opacity 300ms ease-in;
+	transition: opacity 300ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	background: white;
+	
+}
+
+.close {
+  padding: 0;
+	color:black;
+	line-height: 25px;
+	position: absolute;
+	right: 10px;
+	text-align: center;
+	top: 10px;
+	width: 24px;
+	text-decoration: none;
+  background:none;
+	font-weight: bold;
+}
+
+.close:hover { 
+color: #EA4436;
+}
+
+.POEbox{
+  background-color: whitesmoke;
+  width: 80%;
+  height: 550px;
+  border: 5px solid rgb(162, 198, 228);
+  padding: 50px;
+  
+  margin: auto;
+  
+}

@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Nasuha E-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <title>jQuery UI Tabs - Default functionality</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+     
+     $(document).ready(function(){
+       $(".POtech").hide();
+       $(".POsoft").hide();
+       $(".POporfessional").hide();
+       $(".btn1").click(function(){
+        $(".POcog").show();
+        $(".POtech").hide();
+        $(".POsoft").hide();
+        $(".POporfessional").hide();
+       }); 
+       
+       $(".btn2").click(function(){
+        $(".POtech").show();
+        $(".POcog").hide();
+        $(".POsoft").hide();
+        $(".POporfessional").hide();
+       });
+       $(".btn3").click(function(){
+        $(".POsoft").show();
+        $(".POcog").hide();
+        $(".POtech").hide();
+        $(".POporfessional").hide();
+       });
+       $(".btn4").click(function(){
+        $(".POsoft").hide();
+        $(".POcog").hide();
+        $(".POtech").hide();
+        $(".POporfessional").show();
+       });
+     });
+      $( function() {
+        $( "#tabs" ).tabs();
+      } );
+      $( function() {
+      $( "#POtabs" ).tabs();
+  } );
+  
+  
+    </script>
+      
+</head>
+<!-- this is the nav bar-->
+
+  
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">PES E-Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link active" aria-current="page" href="#profile">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#SMART">Mission Statement</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#SWOT">SWOT</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#poAttainment">PO Attainment</a>
+        </li>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#bgPOE">PO Evaluation </a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+    <section  class ="intro">
+    <div >
+      <br><br>
+        <header > 
+            <h1>Professional Engineers and Society
+            </h1></header>
+        
+        
+
+        <div class="subintro"> 
+          <h3 >Nasuha Iskandar</h3>
+          <p >(037232)</p>
+        
+        </div>
+    </div>
+    
+    
+
+    </section>
+
+    <section id = "profile">
+        <h2 id= "subprofile"><ins>About Me</ins></h2> 
+        <br>
+
+
+
+                <br>
+               
+               
+    <div class="row">
+      <div class="column">
+      <section class = picture></section>
+      </div>
+      <div class="column">
+        
+        <div id="tabs">
+                      <ul>
+                        <li><a href="#tabs-1">Profile</a></li>
+                        <li><a href="#tabs-2">Education</a></li>
+                        <li><a href="#tabs-3">Work Experence</a></li>
+                        <li><a href="#tabs-4">Projects</a></li>
+                        <li><a href="#tabs-5">Skills</a></li>
+                      </ul>
+                      <div id="tabs-1">
+                        <p> <b>Nasuha Iskandar</b> </p>
+                        <p> Bukit Jelutong 20160 Shah Alam, Selangor</p>
+                        <p> Seeking hands on experience with 
+                          handling machines, understanding 
+                          risk management and to learn about 
+                          programming languages preferably 
+                          Phyton or C language.
+                           </p>
+                        <p> <b>Languages  </b></p>
+                        <p>Malay : Native Language</p>
+                        <p>English : Modereate</p>
+                        <p><b>Contact</b> </p>
+                        <p>Phone : 019-9847848 </p>
+                        <p>Email : nasuhaiskandar@gmail.com</p>
+                      </div>
+                      <div id="tabs-2">
+                        <p><b>TAYLOR’S UNIVERSITY</b> </p>
+                        <p>AUGUST 2018—PRESENT (SEM 7 year 4) </p>
+                        <p>Level: Degree in electrical engineering</p> 
+                         <p> CGPA: 2.9</p>
+                        <p><b>UNIVERSITI TEKNOLOGI MARA</b></p>
+                        <p>JUNE 2014—AUGUST 2017</p>
+                        <p>Level: Diploma in electrical engineering</p>
+                        <p>CGPA: 2.7</p>
+                      </div>
+                      <div id="tabs-3">
+                        <p><b>INTERSHIP IN P2DIGITAL.SDN.BHD</b></p>
+                        <P>JAN 2021 - MARCH 2021</P>
+                        <P>Work as a software Engineer intern</P>
+                        <p><b>INTERNSHIP IN BQE ENGINEERING SDN.BHD</b></p>
+                        <p>APRIL 2016– JUNE 2016</p>
+                        <ul>
+                          <li>Administrative work that claim process and managing 
+                          the test result.</li>
+                          <li>Learning and helped team at site, mainly at the control 
+                          panel, circuit breaker and relays.</li>
+                        </ul>
+
+                        
+                      </div>
+                      <div id="tabs-4">
+                        <p><b>DIPLOMA FINAL YEAR PROJECT </b></p>
+                        <ul>
+                          <li> Created a mobile phone charger using dynamo energy on bicycle</li>
+                          <li> Developed a way for the device to attach to the bicycle.
+                            (the charger works because it converts kinetic energy 
+                            into a stable 5v output to charge a mobile phone or 
+                            power bank as it cycles.)</li>
+                        </ul>
+                        <p><b>ROBOTIC ARM MINI CAR</b> </p>
+                          <ul>
+                            <li>I handled the software of the project by using C 
+                          language to ensure the car moves and able to detect
+                          objects in close proximity.</li>
+                            <li>Developed an arm that can pick up an object.</li>
+                            
+                          </ul>
+                        <p><b>MOTORCYCLE HELMET</b> </p>
+                          <ul>
+                            <li>programmed an alarm system that will activate when the 
+                          user is not buckled safely</li>
+
+                          </ul>
+                        <p> </p>
+                        <p> <b>Autistic Sibu Association</b> </p>
+                          <ul>
+                            <li>
+                              Create an awareness towards autistic children on social 
+                                media
+                            </li>
+                            <li>
+                                Raised funds for the association, RM3800.
+                            </li>
+                          </ul>
+                      </div>
+                      <div id="tabs-5">
+                        <p><b>PROGRAMMING</b> </p>
+                        <ul>
+                          <li>MATLAB : High</li>
+                          <li>HTML & CSS : High </li>                       
+                          <li>Ruby on rails : moderate</li>
+                          <li>C Programming: Moderate</li>
+                          <li>Assembly Language: Moderate</li>
+                        </ul>
+                        <p><b>SOFTWARE</b></p>
+                        <ul>
+                          <li>ETAP: Basic</li>
+                          <li>Microsoft words, excel & power point: Moderate</li>
+                        </ul>
+
+                      </div>
+                    </div>
+      </div>
+    </div>  
+
+    
+
+
+
+    </section>
+
+    <br>
+    <section id = "SMART">
+      <br>
+        <h2 class = smartTitle><ins>MISSON STATEMENT</ins></h2>
+          <br>
+            
+             <div class = "subSMART">
+                <h1 class = box>S</h1>
+                <p class = "test">Specific- To be an Engineer that is someone can be rely on and knowledgeable in the current growing technology. </p>
+                <h1 class = box>M</h1>
+                <p class = "test">Measurable - To manage a successful project that everyone felt content. </p>
+                <h1 class = box>A</h1>
+                <p class = "test">Attainable - To be relevant on the new technology and be able to apply to new projects. </p>
+                <h1 class = box>R</h1>
+                <p class = "test">Realistic -  With passion and realistic timeframe, the goal is attainable. </p>
+                <h1 class = box>T</h1>
+                <p class = "test">Timely - 10 years (2031)</p>
+                <div class = "purple"></div>                
+              </div>    
+             <br><br>
+    </section>
+
+    <section id = "SWOT">
+      <div class= SWOTmargin>
+        <br>
+        <h1 class = smartTitle><ins>S W O T </ins></h1>
+        <br><br>
+        
+        <div class="SWOTrow">
+          <div class="SWOTcolumn">
+            <div class="card" style="width: 18rem;">
+              <img src="img/strength.png" class="card-img-top" alt="strength" style="width: 50%;">
+              <div class="card-body">
+                <h5 class="card-title">Strength</h5>
+                <p class="card-text"> 
+                  <ul>
+                    <li>I like to be open and believe that there is multiple way to solve a solution</li>
+                    <li>I like to learn about current technology especially in artificial intelligence and computer vision </li>
+                    <li>	I am passionate about engineering </li>
+                  </ul>  
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="SWOTcolumn">
+            <div class="card" style="width: 18rem;">
+             <img src="img/weakness.png" class="card-img-top"  alt="Weakness" style="width: 50%;">
+             <div class="card-body">
+              <h5 class="card-title">Weakness</h5>
+              <p class="card-text">
+                <ul>
+                  <li>	I should improve on my public speaking skills so that I am clearer when explaining</li>
+                  <li>	I need to voice out my opinion and concerns if I have during group projects</li>
+                  <li>	I need to stop procrastinating and submit my work early so that I have time to double check</li>
+                </ul>  
+              </p>
+              
+            </div>
+         </div>
+          </div>
+          <div class="SWOTcolumn">
+            <div class="SWOTcolumn">
+              <div class="card" style="width: 18rem;">
+                <img src="img/job-opportunities.png" class="card-img-top" alt="opportunities" style="width: 50%;">
+                <div class="card-body">
+                  <h5 class="card-title">Opportuneties </h5>
+                  <p class="card-text">
+                    <ul>
+                      <li>I am knowledgeable in Image processing and deep learning </li>
+                      <li>Taylor's organize talks for students to get ready to be in a working environment and to make connections with other companies </li>
+                      <li>Companies are looking for more prefessional engineers </li>
+                    </ul>  
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="SWOTcolumn">
+            <div class="SWOTcolumn">
+              <div class="card" style="width: 18rem;">
+                <img src="img/warning.png" class="card-img-top" alt="Threats" style="width: 50%;">
+                <div class="card-body">
+                  <h5 class="card-title">Threats</h5>
+                  <p class="card-text">
+                    <ul>
+                      <li>My CGPA did not meet the minimum requirement for the job that I applied forr</li>
+                      <li>Unstable economic due to the pandemic has made job seeking even more challenging  </li>
+                      <li>After graduation I need to compete with other fresh graduates to be employed </li>
+                    </ul>  
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+    </section>
+
+    <section id = poAttainment>
+                  <br><br>
+               <h1 class = swottitle><ins>PO Attainment </ins></h1>
+                <br>
+                <div class= POmargin>
+                 <div class="POrow">
+                  <div class="POcolumn">
+                    <div class = btn1>
+                      <img src="img/cognitive.png"  alt="cognative" style="width: 30%;">
+                      <h5>Cognitive skills</h5>
+                    </div>
+                 </div>
+                   
+                  <div class="POcolumn">
+                     <div class = btn2>
+                      <img src="img/technical-support.png"href="#POtabs-2" alt="Forest" style="width:30%">
+                       <h5>Technical skills</h5>
+                     </div>
+                  </div>
+                  
+                  <div class="POcolumn">
+                    <div class = btn3>
+                      <img src="img/support.png" alt="Mountains" style="width:30%">
+                      <h5>Soft skills </h5>
+                    </div>
+                  </div>
+                  
+                  <div class="POcolumn">
+                     <div class = btn4>
+                        <img src="img/architect.png" alt="Mountains" style="width:30%">
+                        <h5>Professional skills</h5>
+                     </div>
+                  
+                  </div>
+               </div>
+               <br><br>
+                <div class = PObox>
+
+                <div class = POcog>
+                  <h4><b>Cognitive skills</b></h4>
+                  <p></p>
+                  <p><ins>PO1</ins></p>
+                  <p>Apply the knowledge of mathematics, science, engineering practices, innovation techniques, entrepreneurship and human factors to provide value-adding solutions to complex Mechanical/Chemical/Electrical Engineering challenges.</p>
+                  <p>Module Grade : A</p>
+                  <p>subjects : Digital and Analogue Electronics </p>
+                  <a href="#modal-PO1" class = "modalbtn">Evidence PO1</a>
+
+                    <div id="modal-PO1" class="modalDialog">
+                      <div>
+                        <a  href="#close" title="Close" class="close">x</a>
+                        
+                        <h2>PO1</h2>
+                        
+                        <img src="img/PO1.jpeg" alt="PO5" style="width:100%">
+                      </div>
+                    </div>
+                  <p>form this module i am able to learn how data stores digitally and how to construnct digital logic circuits using analysis of Bipolar Junction Transistor (BJT), Field Effect Transistor (FET), Feedback, Oscillator and Power
+                    Amplifier circuits. </p>
+                  <p>Self Assesment: 5/5</p>
+
+                  <hr>
+
+                  <p><ins>PO2</ins></p>
+                  <p>Identify, formulate, analyse and document complex engineering challenges to arrive at viable solutions and 
+                    substantiated conclusions.</p>
+                    <p>Module Grade : A-</p>
+                    <p>subject : Integrated Electronis</p>
+                    <a href="#modal-PO2" class = "modalbtn">Evidence PO2</a>
+
+                    <div id="modal-PO2" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">x</a>
+                        <h2>PO2</h2>
+                        
+                        <img src="img/PO2.jpg" alt="PO5" style="width:100%">
+                      </div>
+                    </div>
+                    <p>form this module it is mainly on analysing operational amplifier as a filter, amplifier, converting to ADC/ADC and vice versa. I have to solve and manipulate the state of the current and voltage 
+                      to my desired output  </p>
+                    <p>Self Assesment: 5/5</p>
+                    <hr>
+              
+                  <p><ins>PO4</ins></p>
+                  <p>Conduct research and investigation into complex challenges using methods which include experiment 
+                    design, analysis of data and synthesis of information to provide valid conclusions.</p>
+                    <p>Module Grade : B+</p>
+                    <p>>subject : Automatic Control and Instrumentation</p>
+                    <a href="#modal-PO4" class = "modalbtn">Evidence PO4</a>
+
+                    <div id="modal-PO4" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">x</a>
+                        <h2>PO4</h2>
+                        
+                        <img src="img/PO4.jpeg" alt="PO4" style="width:100%">
+                      </div>
+                    </div>
+                    <p>form this module each group is required to conduct an experiment on Programmable
+                      Logic Controller (PLC) during the designated week in the lab schedule.</p>
+                    <p>Self Assesment: 4/5</p>
+                    <hr>
+
+                  <p><ins>PO12</ins></p>
+                  <p>Recognise the importance of lifelong learning and engaging in continuous professional 
+                    development activities in accordance with technological change.
+                    </p>
+                    <p>Module Grade : - </p>
+                    <p>subject : Professional Engineers and Society</p>
+                    <a href="#modal-PO12" class = "modalbtn">Evidence PO12</a>
+
+                    <div id="modal-PO12" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">x</a>
+                        <h2>PO12</h2>
+                        
+                        <img src="img/PO12.png" alt="PO5" style="width:100%">
+                      </div>
+                    </div>
+                    <p>form this module my group need to submit a case study about factors that cause Commuting Accident (CA). Talk series about 
+                      Role and Responsibility of Professional Engineers in Adapting IR 4.0 and  Crafting a Successful Career in Engineering.
+                    </p>
+                    <p>Self Assesment: 4/5</p>
+              
+
+                </div>
+
+                <div class = POtech> 
+                  <h4><b>Technical skills</b></h4>
+                  <p><ins>PO3</ins></p>
+                  <p>Conceive, Design, Implement and Operate solutions for complex engineering challenges that meet 
+                    specified requirements with appropriate consideration for public health and safety, cultural, societal, 
+                    environmental and economical considerations.</p>
+                    <p>Module Grade : B</p>
+                    <p>subject :  Engineering Design and Analysis</p>
+                    <a href="#modal-PO3" class = "modalbtn">Evidence PO3</a>
+
+                    <div id="modal-PO3" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">x</a>
+                        <h2>PO3</h2>
+                        
+                        <img src="img/PO3-1.jpeg" alt="PO3" style="width:100%">
+                      </div>
+                    </div>
+
+                    <p>form this module our group need to learn arduino uno and figure out on how to built a robotic car with an arm to be able to take load 
+                      with a specifc height.
+                    </p>
+                    <p>Self Assesment: 4/5</p>
+                    <hr>
+                    
+                    <p><ins>PO5</ins></p>
+                  <p>Create, select and apply appropriate technique, resources and modern engineering tools, including 
+                    prediction and modelling to complex engineering activities with an awareness of the accompanying 
+                    assumptions and limitations</p>
+                    <p>Module Grade : B</p>
+                    <p>subjects :  Programming Techniques</p>
+                    <a href="#modal-PO5" class = "modalbtn">Evidence PO5</a>
+
+                    <div id="modal-PO5" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">x</a>
+                        <h2>PO5</h2>
+                        
+                        <img src="img/PO5.jpg" alt="PO5" style="width:100%">
+                      </div>
+                    </div>
+                    <p>form this module we are able to develop programs using the C programming language in
+                      order to solve simple to moderate problems.</p>
+                    <p>Self Assesment: 4/5</p>
+
+                    
+                </div>
+
+                <div class = POsoft>
+                  <h4><b>Soft skills</b></h4>
+                  <p><ins>PO9</ins></p>
+                  <p>Function effectively as an individual and in multidisciplinary settings with the capacity to 
+                    be a leader.</p>
+                    <p>Module Grade : B+</p>
+                    <p>subject : Industrial Training</p>
+                    <a href="#modal-PO9" class = "modalbtn">Evidence PO9</a>
+
+                    <div id="modal-PO9" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">x</a>
+                        <h2>PO9</h2>
+                        
+                        <img src="img/PO9.jpeg" alt="PO9" style="width:100%">
+                      </div>
+                    </div>
+                    <p>form this module I was able to work together with other interns to develop a claim process on the company's website. 
+                      I came to work on time and able to finish all my task before my internship is over.
+                    </p>
+                    <p>Self Assesment: 4/5</p>
+                    <hr>
+                  <p><ins>PO10</ins></p>
+                  <p>Effectively communicate complex engineering activities, both orally and in written form, 
+                    in both technical and non-technical contexts.</p>
+                    <p>Module Grade: A-</p>
+                    <p>subject : High Voltage Engineering</p>
+                    <a href="#modal-PO10" class = "modalbtn">Evidence PO10</a>
+
+                    <div id="modal-PO10" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">x</a>
+                        <h2>PO10</h2>
+                        
+                        <img src="img/PO10.jpg" alt="PO10" style="width:100%">
+                      </div>
+                    </div>
+                    <p>form this module I was able to conduct an experiment using a software called COMSOL and able to produce the desired result of a submarine cable
+                      simulation. the experiment is then analyse to make a lab report. 
+                    </p>
+                    <p>Self Assesment: 5/5</p>
+                </div>
+                
+                <div class = POporfessional> 
+                  <h4><b>Professional skills</b></h4>
+                  <p><ins>PO6</ins></p>
+                  <p>Apply reasoning informed by contextual knowledge to assess societal, health, safety, 
+                    legal, economical and cultural issues and the consequent responsibilities relevant to 
+                    professional engineering practice.</p>
+                    <p>Module Grade : C+</p>
+                    <p>subject :  Engineering Design and Project Management</p>
+                    <a href="#modal-PO6" class = "modalbtn">Evidence PO6</a>
+
+                    <div id="modal-PO6" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">x</a>
+                        <h2>PO6</h2>
+                        
+                        <img src="img/PO6.jpg" alt="PO6" style="width:100%">
+                      </div>
+                    </div>
+                    <p>form this module we manage to think about a product that have business value, our group business value is the safety of a motocycles 
+                      rider.  </p>
+                    <p>Self Assesment: 3/5</p>
+                    <hr>
+                  <p><ins>PO7</ins></p>
+                  <p>Explain the global impact of professional engineering solutions in societal, economical 
+                    and environmental contexts and demonstrate knowledge of and need for sustainable 
+                    development.
+                    </p>
+                    <p>Module Grade : - </p>
+                    <p>subject : Professional Engineers and Society </p>
+                    <a href="#modal-PO7" class = "modalbtn">Evidence PO7</a>
+
+                    <div id="modal-PO7" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">x</a>
+                        <h2>PO7</h2>
+                        
+                        <img src="img/PO7.jpg" alt="PO5" style="width:100%">
+                      </div>
+                    </div>
+                    <p>form this module I am able to reflect and plan about the future. I am more aware about my strength and weakneses so that i can 
+                      improve on it and become a better engineer.
+                    </p>
+                    <p>Self Assesment: 4/5</p> 
+                    <hr>
+
+                  <p><ins>PO8</ins></p>
+                  <p>Apply professional ethical responsibilities of engineering practice.</p>
+                    <p>Module Grade : </p>
+                    <p>subject : Industrial Training</p>
+                    <a href="#modal-PO8" class = "modalbtn">Evidence PO8</a>
+
+                    <div id="modal-PO8" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">x</a>
+                        <h2>PO8</h2>
+                        
+                        <img src="img/PO8.jpeg" alt="PO8" style="width:100%">
+                      </div>
+                    </div>
+                    <p>form this module Adopt values and work ethics that take into account inter-cultural sensitivities as
+                      evident in a real working environment.</p>
+                    <p>Self Assesment: 4/5</p>
+                    <hr>
+                  <p><ins>PO11</ins></p>
+                  <p>Effectively manage projects in multidisciplinary environments and apply project 
+                    management tools and techniques to one’s own work, as a member and leader in a 
+                    team to satisfy stakeholders requirement
+                    </p>
+                    <p>Module Grade : C+ </p>
+                    <p>subject : Engineering Design and Project Management   </p>
+                    <a  href="#modal-PO11" class = "modalbtn">Evidence PO11</a>
+
+                    <div id="modal-PO11" class="modalDialog">
+                      <div>
+                        <a href="#close" title="Close" class="close">x</a>
+                        <h2>PO11</h2>
+                        
+                        <img src="img/PO6.jpg" alt="PO5" style="width:100%">
+                      </div>
+                    </div>
+                    <p>form this module</p>
+                    <p>Self Assesment: 3/5</p>
+
+                </div>
+
+               </div>
+               
+
+            </div>
+         </div>
+              <br><br> 
+      </section>
+
+    <section id = "bgPOE"> 
+      <br><br>
+      <h1 class = swottitle > <ins>PO Evaluation </ins></h1>
+         <div class = marginPOE >
+          
+           
+          
+         </div>
+        <div class = margintablePOE>
+           <div class="POErow">
+          <div class="POEcolumn">
+            
+            <table class="table-success" style="width:80%">
+              <thead>
+              
+                <th rowspan="2"><h5>Project Outcomes</h5></th>
+                <th colspan="5"><h5>level of attainment</h5></th> 
+              
+              </tr>
+
+              <tr >
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                
+              </tr>
+              <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>&#10004</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>&#10004</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>&#10004</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>&#10004</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>&#10004</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td></td>
+                <td></td>
+                <td>&#10004</td>
+                <td></td>
+                <td></td>
+              <tr>
+                <td>7</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>&#10004</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>&#10004</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>&#10004</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>&#10004</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td></td>
+                <td></td>
+                <td>&#10004</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>&#10004</td>
+              </tr>
+            </table>
+            
+         </div>
+           
+          <div class="POEcolumn">
+            <canvas id="myChart3" width="500" height="400"></canvas>
+          </div>
+          
+
+          
+          </div>
+
+         </div> 
+       </div>
+       <br><br>
+      <h2 class = swottitle> Lowest PO & Countermeasures </h2> 
+      <br>
+      <div class = POEbox>
+      <p >my 3 lowest PO are PO3, PO6, PO11. All of this porgram outcome comes from managing projects, I am aware that I lack people skill and 
+        group members find hard to understand what I am trying to say. therefore, below are the short term and long term goals to improve myself. 
+      </p>   
+      <p><ins>PO3</ins></p>
+      <p>Short Term : Sends reference link or example on what i think is useful for the project. Prepare a flowchart so that group members understands better.</p>
+      <p>Long Term : Have a deep understand of the sofware or hard ware so that it will be easier to explain and avoid vauge explaination. </p>
+      <p><ins>PO6</ins></p>
+      <p>Short Term : Read books on how to identify business value to imprve my thinking.  </p>
+      <p>Long Term : Keep up to date with current trends and alwayse identify daily problems that I could slove.</p>
+      <p><ins>PO11</ins></p>
+      <p>Short Term : Uses a website to help manage group project for example trello to have a better track on the group progress. </p>
+      <p>Long Term : Have a short meeting for updates, improve on my public speaking skills so that i am more clear. Futhermore become a better listener.</p>
+
+
+      </div>
+      <br>
+    </section>
+ 
+     
+  <script src= "script.js"></script>
+</body>
+</html>
